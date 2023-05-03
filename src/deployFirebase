@@ -1,0 +1,26 @@
+1- In terminal for frontend/client run--->npm i -g firebase-tools (maybe need to add sudo at start of command)
+2-firebase login
+to login with another email use--> firebase logout then firebase login
+
+3-firebase init
+spacebar to select
+steps:
+Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub
+Action deploys
+
+? Select a default Firebase project for this directory: (Use arrow keys)
+
+> challenge-12345 (amazon-challenge)---> unique id
+
+Use an existing project
+
+What do you want to use as your public directory? (public)--->write---> build
+
+? Configure as a single-page app (rewrite all urls to /index.html)? (y/N) type yes by def no
+
+4-npm run build---->bundle the app in a tiny efficent package to deploy (create build folder)
+
+5- firebase deploy--->goe to built folder and find content and deploy it.
+
+hosting url:
+https://challenge-12345.web.app

@@ -1,0 +1,27 @@
+.cartItem{
+    padding: 7px;
+    margin: 3px 8px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+.cartItem__info{
+    margin-bottom: 6px;
+    
+}
+.cartItem_img{
+    height: 120px;
+    width: 200px;
+    margin-bottom: 8px;
+}
+
+.cartItem button{
+    background-color: rgb(134, 169, 235);
+    border: 3px solid cornflowerblue;
+    border-radius: 4px;
+    padding:2px  3px;
+}

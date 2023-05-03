@@ -1,0 +1,83 @@
+.header{
+display: flex;
+align-items: center;
+top: 0;
+left: 0;
+z-index: 5;
+height: 60px;
+background-color: black;
+position: sticky;
+width: 100%;
+color: wheat;
+}
+.header__logo{
+display: flex;
+align-items: center;
+height: 60px;
+object-fit: contain;
+width: 110px;
+padding: 0px 10px;
+        
+
+}
+.header__search{
+display: flex;
+align-items: center;
+flex: 1;
+height: 80%;
+
+}
+.header__searchInput {
+display: flex;
+align-items: center;
+flex: 1;
+font-size: 14px;
+border: none;
+height: 100%;
+padding: 0px 5px;
+}
+.header__searchButton{
+border: none;
+color: black;
+background-color: rgb(232, 151, 93);
+padding:10px 8px 6px 8px;
+height: 100%;
+font-size: large;
+}
+.header__nav {
+display: flex;
+align-items: center;
+margin: 0px 10px;
+
+}
+.header__option {
+display: flex;
+flex-direction: column;
+color: aliceblue;
+margin: 5px;
+
+
+}
+.small__text {
+    font-size: small;
+}
+.large__text{
+
+
+}
+.large__text {
+    color: wheat;
+
+}
+
+.header__cart{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.header__cartLogo{
+    color: wheat;
+    margin-right: 5px;
+    text-decoration: none;
+
+}
