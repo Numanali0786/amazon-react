@@ -23,7 +23,11 @@ const Header = () => {
 
       {/* search bar */}
       <div className="header__search">
-        <input type="text" className="header__searchInput" />
+        <input
+          type="text"
+          placeholder="Search for your products"
+          className="header__searchInput"
+        />
         <button className="header__searchButton">
           <SearchIcon />
         </button>

@@ -1,6 +1,7 @@
 import "./App.css";
 import "./Home.css";
 import Header from "./Header";
+import Footer from "./Footer.js";
 import Home from "./Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cart from "./Cart";
@@ -23,6 +24,7 @@ function App() {
           <Route path="/cart" element={user && <Cart />} />
           <Route path="/login" element={!user && <Login />} />
         </Routes>
+        {user && <Footer />}
       </BrowserRouter>
 
       {/* <Home /> */}

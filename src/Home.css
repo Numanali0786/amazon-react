@@ -1,5 +1,6 @@
 .home {
   background-color: rgba(229, 132, 53, 0.8);
+  padding-bottom: 20px;
   /* position: absolute; */
 }
 .Home__container {
