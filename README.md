@@ -7,4 +7,5 @@ main
 ![Screenshot (361)](https://user-images.githubusercontent.com/69466504/236682293-82bbc3b7-af3e-42ff-aea5-e9d69227adc5.png)
 
 cart
-![Uploading Screenshot (364).png…]()
+
+![Screenshot (364)](https://user-images.githubusercontent.com/69466504/236683386-e8af91c6-09cf-4b4d-b4be-37d659606a32.png)
